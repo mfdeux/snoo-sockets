@@ -3,6 +3,7 @@
 [![](https://godoc.org/github.com/mfdeux/snoo-sockets?status.svg)](http://godoc.org/github.com/mfdeux/snoo-sockets)
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/mfdeux/snoo-sockets)](https://goreportcard.com/report/github.com/mfdeux/snoo-sockets)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmfdeux%2Fsnoo-sockets.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmfdeux%2Fsnoo-sockets?ref=badge_shield)
 
 A Go client for the [Reddit API](https://github.com/reddit/reddit/wiki/API). This package aims to implement every endpoint exposed according to the [documentation](https://www.reddit.com/dev/api) in a user friendly.
 
@@ -67,3 +68,7 @@ client.GetDefaultSubreddits()
 // Retrives a listing of hot links for the "news" subreddit
 client.GetHotLinks("news")
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmfdeux%2Fsnoo-sockets.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmfdeux%2Fsnoo-sockets?ref=badge_large)
